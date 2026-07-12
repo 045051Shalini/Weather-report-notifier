@@ -69,7 +69,25 @@ https://github.com/045051Shalini/Weather-report-notifier/blob/main/15%20June%20M
 5. Send the summarized report as an SMS via Twilio.
 
 ---
+## 📥 Import Workflow
 
+The complete n8n workflow is available in this repository.
+
+**Workflow JSON**
+
+https://github.com/045051Shalini/Weather-report-notifier/blob/3c48565544c813bfe44549ef8f714e3291106da9/RAG%20Weather%20Report%20Notifier%20(Drive%20%E2%86%92%20Vector%20DB%20%E2%86%92%20SMS).json
+
+To import the workflow:
+
+1. Open n8n.
+2. Click **Import from File**.
+3. Select the downloaded JSON workflow.
+4. Configure your credentials:
+   - Google Drive
+   - OpenAI
+   - Twilio
+5. Execute the workflow.
+---
 ## 📈 Future Enhancements
 
 - WhatsApp Notifications
